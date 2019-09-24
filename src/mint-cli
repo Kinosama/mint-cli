@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+require = require('esm')(module /*, options*/);
+MintCli = require('./index');
+const mintCli = new MintCli('@mint/cli');
+mintCli.mint(process.argv);

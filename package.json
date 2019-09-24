@@ -1,0 +1,29 @@
+{
+  "name": "@mint/cli",
+  "version": "0.0.1",
+  "description": "Node.js CLI form Mint https://github.com/XorTroll/Mint, all credits for original application for XorTroll.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -w"
+  },
+  "bin": {
+    "@mint/cli": "build/mint-cli",
+    "mint": "build/mint-cli"
+  },
+  "publishConfig": {
+    "acces": "public"
+  },
+  "keywords": [],
+  "author": "Alvaro Cabrera Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "alvarocabreradam-logit": "0.0.9",
+    "esm": "^3.2.25",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0"
+  }
+}
